@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "load-service"
+version = "0.1.0"
+description = ""
+authors = ["SoufianeAmghar <soufiane35.live@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+boto3 = "^1.40.25"
+psycopg2-binary = "^2.9.10"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

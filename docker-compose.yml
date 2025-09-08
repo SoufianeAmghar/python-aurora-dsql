@@ -1,0 +1,12 @@
+version: "3.8"
+services:
+  load:
+    build:
+      context: ./load-service
+    environment:
+      - AWS_ACCESS_KEY_ID=
+      - AWS_SECRET_ACCESS_KEY=
+      - PGHOST=
+      - AWS_REGION=
+      - PGUSER=
+      - PGDATABASE=

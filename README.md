@@ -52,7 +52,7 @@ This project enables seamless programmatic connections to Amazon Aurora Distribu
 
 ## Technologies
 
-- Python 3.12
+- Python 3.9
 - psycopg2 (PostgreSQL driver)
 - AWS CLI (for generating IAM database auth tokens)
 - Docker and Docker Compose
